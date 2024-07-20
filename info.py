@@ -41,16 +41,16 @@ class evamaria(Client):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['20447284'])
+API_HASH = environ['b215f8e05089c399ed89170544621a70']
+BOT_TOKEN = environ['7001355938:AAFhZKU7agn8s6ySBvVApyyvrj0PNc7yzyg
+']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/d8b82d0a1d20da5f0cf65.jpg https://telegra.ph/file/ac56302ae11da42519c1d.jpg https://telegra.ph/file/43c7e4d3c2e327bd9b02e.jpg https://telegra.ph/file/77283bdd7509ba368a43f.jpg https://telegra.ph/file/1157e9c4f1ab715996334.jpg')).split()
-NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/c53e593b9c913cd73a824.jpg")
-SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/80dcffebb47e116a65758.jpg")
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))')).split()
+NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/25c48a0dfd9e420df7201.jpg https://telegra.ph/file/696a6e2cc3e9480d168ae.jpg https://telegra.ph/file/edfbdf86cf9404ccd0c7e.jpg https://telegra.ph/file/793b4d976897a55f69499.jpg")
+SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/314928baed9a9c277072f.jpg")
 
 # Welcome area
 MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/f75dc5a5f440e2ffe43e7.jpg")
